@@ -16,6 +16,8 @@ This is a lightweight Python application that automatically rebalances a cryptoc
 
 ## 📁 Project Structure
 
+```plaintext
+
 Autobalancing-Crypto/
 
 |-- app.py              # Main script to run the rebalancer
@@ -25,7 +27,7 @@ Autobalancing-Crypto/
 |-- payloads.py         # Prepares request payloads for the API
 |-- get_orderbook.py    # Gets the order book for price granularity
 |-- .gitignore          # Excludes secret files like .env
-
+```
 
 ---
 
