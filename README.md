@@ -56,20 +56,17 @@ API_secret=your_secret_here
 ## 🛠️ Dependencies
 
 - `requests`
+- `coinbase-advanced-py`
 - `dotenv` (for loading API credentials securely)
 
-Install all dependencies:
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
 ## 💡 Recommendations
 
 - 🔄 **Fee Optimization**: This tool works best with a Coinbase One subscription or reduced-fee tier to minimize trading costs, especially when rebalancing frequently.
-- 💵 **Ensure Sufficient USD Balance**: Before rebalancing, make sure your Coinbase account has enough USD to fund purchases. Otherwise, the first transactions may fail.
-- 🧠 **Trade Order Logic**: The system sorts actions so that it sells excess assets **before** attempting any purchases. This ensures that there's available balance to execute buy orders properly.
+- 💵 **Ensure Sufficient USD Balance**: Before rebalancing, make sure your Coinbase account has enough USD to fund purchases. Otherwise, the first transactions may fail or use the *Trade Order Logic* below.
+- 🧠 **Trade Order Logic**:  You can modify the system to sort actions so that it sells excess assets before attempting any purchases. This ensures that sufficient funds are available to execute buy orders successfully. While sorting typically has an average time complexity of Θ(n log n), I designed the logic to avoid full sorting and aim for an overall runtime of Θ(n).
 
 
 ---
