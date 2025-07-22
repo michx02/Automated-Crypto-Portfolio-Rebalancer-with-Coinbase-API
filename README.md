@@ -25,7 +25,7 @@ Autobalancing-Crypto/
 |-- assets_config.py    # Contains asset names and target weight config
 |-- authentication.py   # Handles authentication using Coinbase credentials
 |-- payloads.py         # Prepares request payloads for the API
-|-- get_orderbook.py    # Gets the order book for price granularity
+|-- _get_orderbook.py   # Gets the order book; It's not used in the app.py:you can use it to see your orders
 |-- .gitignore          # Excludes secret files like .env
 ```
 
