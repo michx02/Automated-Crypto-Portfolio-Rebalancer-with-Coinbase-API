@@ -17,13 +17,14 @@ This is a lightweight Python application that automatically rebalances a cryptoc
 ## 📁 Project Structure
 
 Autobalancing-Crypto/
-├── app.py              # Main script to run the rebalancer.
-├── api_data.py         # Retrieves market prices from Coinbase.
-├── assets_config.py    # Contains asset names and target weight config.
-├── authentication.py   # Handles authentication using Coinbase credentials.
-├── payloads.py         # Prepares request payloads for the API.
-├── get_orderbook.py    # Gets the order book for price granularity.
-└── .gitignore          # Excludes secret files like .env.
+|
+|-- app.py              # Main script to run the rebalancer
+|-- api_data.py         # Retrieves market prices from Coinbase
+|-- assets_config.py    # Contains asset names and target weight config
+|-- authentication.py   # Handles authentication using Coinbase credentials
+|-- payloads.py         # Prepares request payloads for the API
+|-- get_orderbook.py    # Gets the order book for price granularity
+`-- .gitignore          # Excludes secret files like .env
 
 
 ---
