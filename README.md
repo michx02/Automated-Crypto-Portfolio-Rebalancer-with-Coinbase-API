@@ -27,6 +27,9 @@ Autobalancing-Crypto/
 |-- payloads.py         # Prepares request payloads for the API
 |-- _get_orderbook.py   # Gets the order book; It's not used in the app.py:you can use it to see your orders
 |-- .gitignore          # Excludes secret files like .env
+|-- app_results_1.jpg   # Shows what the terminal displays when all assets had to rebalance
+|-- app_results_2.jpg   # Shows what the terminal displays when some assets are rebalanced
+
 ```
 
 ---
