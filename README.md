@@ -1,4 +1,4 @@
-# Autobalancing-Crypto
+# Automated Crypto Portfolio Rebalancer with Coinbase API
 
 This is a lightweight Python application that automatically rebalances a cryptocurrency portfolio based on predefined asset allocation weights. It connects to the Coinbase API to retrieve market data, calculate discrepancies in current allocation, and execute simulated trades to bring the portfolio back to its target distribution.
 
