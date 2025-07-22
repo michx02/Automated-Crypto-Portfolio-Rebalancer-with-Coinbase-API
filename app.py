@@ -8,7 +8,12 @@ from assets_config import TARGET_ALLOCATION, clean_base_size,is_trade_size_valid
 
 
 
-#returns the "uuid" of the portfolio
+'''
+returns the "uuid" of the portfolio
+DISCLAIMER: This functions returns the first element of a list
+The list is a list of uuid of all your portfolios
+This code assumed your portfolio is at index 0. 
+'''
 def get_portfolio_uuid():
 
     url= "https://api.coinbase.com/api/v3/brokerage/portfolios"
